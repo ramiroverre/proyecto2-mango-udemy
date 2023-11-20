@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="./css/normalize.css" as="style">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="preload" href="./css/styles.css" as="style">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Producto</title>
+</head>
+
+<body>
+    <header class="header">
+        <a href="./index.html">
+            <img class="header__logo" src="./assets/logo.png" alt="Logotipo">
+        </a>
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="./index.html">Tienda</a>
+        <a class="navegacion__enlace" href="./nosotros.html">Nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>Producto</h1>
+
+        <div class="remera">
+            <img class="remera__imagen" src="./assets/1.jpg" alt="imagen del producto">
+
+            <div class="remera__contenido">
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                <form class="formulario">
+                    <select class="formulario__campo" name="" id="">
+                        <option disabled selected value="">Seleccionar talle</option>
+                        <option value="">S</option>
+                        <option value="">M</option>
+                        <option value="">L</option>
+                        <option value="">XL</option>
+                        <option value="">XXL</option>
+                    </select><!-- .formulario__campo -->
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1">
+                    <input class="formulario__submit" type="submit" value="Agregar al carrito">
+                </form><!-- .formulario -->
+            </div><!-- .camisa__contenido -->
+        </div><!-- .camisa -->
+
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer__texto footer__texto--ceo">Mango Store - Todos los derechos reservados</p>
+        <p class="footer__texto">Proudly developed by Ramiro Verrecchia</p>
+    </footer>
+</body>
+
+</html>
